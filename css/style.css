@@ -41,6 +41,8 @@ footer {;margin-top: 40px;background-color: #f8f8f8}
 
 .credit {margin-top: 10px;}
 
+
+
 @media screen and (max-width: 768px) {
     #mdlg {
       display:none;
