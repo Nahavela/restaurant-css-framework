@@ -31,7 +31,7 @@ Troisième et quatrième semaine à BeCode.
 - images jumbotron : https://unsplash.com/
 - autres images : T. Selderslagh (utilisée avec son accord)
 - logo : S. Avitto (utilisé avec son accord)
-- icones : https://icon-icons.com/
+- icones : https://fontawesome.com
 - fonts : https://fonts.google.com/
 
 
