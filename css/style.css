@@ -1,3 +1,5 @@
+/* général */
+
 body {
   background-color: white; 
   padding-top: 70px;
@@ -31,27 +33,6 @@ body {
 }
 
 
-.btn-info {
-  background-color: transparent;
-  border-color: white;
-}
-
-.btn-info:hover {
-  background-color: gray;
-  border-color:gray;
-}
-
-.pager, .gallery {
-  margin-top:20px; 
-}
-
-.pager a{
-  color:gray ;
-  font-size: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
 footer {
   margin-top: 40px;
   background-color: #e7e7e7
@@ -71,7 +52,36 @@ footer {
   margin-top: 10px;
 }
 
+/* boutton du jumbotron en index */
 
+.btn-info {
+  background-color: transparent;
+  border-color: white;
+}
+
+.btn-info:hover {
+  background-color: gray;
+  border-color:gray;
+}
+
+/* page pictures*/
+
+.pager, .gallery {
+  margin-top:20px; 
+}
+
+.pager a{
+  color:gray ;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+header {
+  margin-top: 20px;
+}
+
+/* page restaurent (carte)*/
 
 @media screen and (max-width: 768px) {
     #mdlg {
@@ -86,7 +96,17 @@ footer {
 }
 
 
-header {
-  margin-top: 20px;
-}
+/* panneaux (page menu et restaurants et home)*/
 
+.panel-title{border-bottom:1px solid gray; 
+  }
+
+.badge {color: gray; background-color: #e7e7e7}
+
+.heures, .jours, .ville, .adresse {list-style:none; }
+
+.ville, .jours {font-weight: bold;}
+
+.no {border:none;}
+
+.clear {border:none; box-shadow: none;}
